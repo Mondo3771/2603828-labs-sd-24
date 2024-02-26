@@ -1,7 +1,15 @@
 body{
     margin:0;
 }
-
+p{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 header ,footer{
     text-decoration: none;
     display: flex;
@@ -13,12 +21,24 @@ header ,footer{
 ul{
     display: flex;
     list-style: none;
-    text-decoration: none;
-    justify-content: space-between;
+    gap: 10px;
+}
+#section1{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.bottom{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
 }
 img{
     width: 600px;
     height: 400px;
+    align-self: center;
+    padding: 0 10px 10px 10px;
 }
 a{
     text-decoration: none;
