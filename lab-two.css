@@ -1,16 +1,7 @@
 body{
     margin:0;
 }
-.element{
-    margin: 0;
-    padding: 0;
-}
-main{
-    margin:0;
-    flex-direction: column;
-    display: flex; 
-    justify-content: center;
-}
+
 header ,footer{
     text-decoration: none;
     display: flex;
@@ -24,9 +15,11 @@ ul{
     list-style: none;
     text-decoration: none;
     justify-content: space-between;
-    
 }
-
+img{
+    width: 600px;
+    height: 400px;
+}
 a{
     text-decoration: none;
     color: white;
